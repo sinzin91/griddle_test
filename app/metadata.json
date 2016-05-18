@@ -1,0 +1,90 @@
+[
+  {
+    "columnName": "scraperClassName",
+    "order": 1,
+    "locked": true,
+    "visible": true,
+    "displayName": "Scraper Class Name",
+    "cssClassName": "scraperClassName"
+  },
+  {
+    "columnName": "Seller Name",
+    "order": 2,
+    "locked": false,
+    "visible": true,
+    "displayName": "Seller Name",
+    "cssClassName": "sellerName"
+  },
+  {
+    "columnName": "Seller URL",
+    "order": 3,
+    "locked": false,
+    "visible": true,
+    "displayName": "Seller URL",
+    "cssClassName": "sellerUrl"
+  },
+  {
+    "columnName": "Javascript",
+    "order": 3,
+    "locked": false,
+    "visible": true
+  },
+  {
+    "columnName": "Search",
+    "order": 5,
+    "locked": false,
+    "visible": true,
+    "displayName": "Search"
+  },
+  {
+    "columnName": "Search Terms",
+    "order":  2,
+    "locked": false,
+    "visible": true,
+    "displayName": "Search Terms",
+    "cssClassName": "searchTerms"
+  },
+  {
+    "columnName": "Price Selector",
+    "order": 4,
+    "locked": false,
+    "visible": true,
+    "displayName": "Price Selector",
+    "cssClassName": "priceSelector"
+  },
+  {
+    "columnName": "Proxy Provider",
+    "order": 5,
+    "locked": false,
+    "visible": true,
+    "displayName": "Proxy Provider"
+  },
+  {
+    "columnName": "Filter",
+    "order": 5,
+    "locked": false,
+    "visible": true,
+    "displayName": "Filter"
+  },
+  {
+    "columnName": "Enrichment DSL",
+    "order": 5,
+    "locked": false,
+    "visible": true,
+    "displayName": "Enrichment DSL"
+  },
+  {
+    "columnName": "Marketplace/CSE",
+    "order": 5,
+    "locked": false,
+    "visible": true,
+    "displayName": "Marketplace/CSE"
+  },
+  {
+    "columnName": "Multiple Variations",
+    "order": 6,
+    "locked": false,
+    "visible": true,
+    "displayName": "Multiple Variations"
+  }
+]

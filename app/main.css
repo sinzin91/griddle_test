@@ -1,0 +1,71 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+table td {
+    border: 1px solid #ccc;
+}
+table td.absorbing-column {
+    width: 100%;
+}
+
+.scraperClassName {
+  width: 325px;
+}
+
+.priceSelector {
+  width: 140px;
+}
+
+.sellerName {
+  width: 200px;
+}
+
+.searchTerms {
+  width: 125px;
+}
+
+/*
+body {
+  background: grey;
+}
+
+table { 
+  width: 100%; 
+  table-layout: auto;
+  border-collapse: collapse; 
+
+}
+
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+
+tr td {
+  white-space: nowrap;
+  width: 100%;
+}
+
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+
+th[data-title=scraperClassName] {
+
+}*/

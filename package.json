@@ -1,0 +1,36 @@
+{
+  "name": "kanban_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-survivejs-kanban": "^0.3.3",
+    "css-loader": "^0.23.1",
+    "griddle-react": "^0.5.1",
+    "json-loader": "^0.5.4",
+    "npm-install-webpack-plugin": "^3.1.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.12.0"
+  },
+  "dependencies": {
+    "data": "^0.6.1",
+    "json": "^9.0.3",
+    "jsons": "^0.1.1",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
