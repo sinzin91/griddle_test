@@ -16,9 +16,7 @@ const common = {
   devtool: 'eval-source-map',
   // Entry accepts a path or an object of entries.  We'll be using the 
   // latter form given its convenient with more complex configs.
-  entry: {
-    app: PATHS.app
-  },
+  entry: "./app/index.jsx",
   // Add resolve.extensions.
   // '' is needed to allow imports without an extension.
   // Note the .'s before extensions as it will fail to match without it!
