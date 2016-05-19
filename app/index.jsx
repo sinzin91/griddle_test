@@ -21,6 +21,6 @@ var columns = [
 // ReactDOM.render(<Griddle results={data} enableInfiniteScroll={true} bodyHeight={400} showFilter={true}
 //   columnMetadata={exampleMetadata} showFilter={true} showSettings={true} columns={["name", "city", "state", "country"]}/>, document.getElementById('main'));
 
-ReactDOM.render(<Griddle results={topo} enableInfiniteScroll={true} bodyHeight={800} 
+ReactDOM.render(<Griddle results={topo} enableInfiniteScroll={true} bodyHeight={850} 
   useFixedHeader={true} useGriddleStyles={false} columnMetadata={metadata} showSettings={true} 
   columns={columns} showFilter={true}/>, document.getElementById('main'));
