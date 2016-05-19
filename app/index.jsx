@@ -6,7 +6,8 @@ import topo from './topo.json';
 //import exampleMetadata from './exampleMetadata.json';
 //import data from './data.json';
 import metadata from './metadata.json';
-import './main.css';
+//import './main.css';
+import './test.css';
 
 var columns = [
   "scraperClassName",
@@ -20,6 +21,6 @@ var columns = [
 // ReactDOM.render(<Griddle results={data} enableInfiniteScroll={true} bodyHeight={400} showFilter={true}
 //   columnMetadata={exampleMetadata} showFilter={true} showSettings={true} columns={["name", "city", "state", "country"]}/>, document.getElementById('main'));
 
-ReactDOM.render(<Griddle results={topo} enableInfiniteScroll={true} bodyHeight={500} 
-  useFixedHeader={false} useGriddleStyles={true} columnMetadata={metadata} showSettings={true} 
+ReactDOM.render(<Griddle results={topo} enableInfiniteScroll={true} bodyHeight={800} 
+  useFixedHeader={true} useGriddleStyles={false} columnMetadata={metadata} showSettings={true} 
   columns={columns} showFilter={true}/>, document.getElementById('main'));
