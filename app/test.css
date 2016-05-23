@@ -49,14 +49,18 @@ tr:hover {
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 body {
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(318deg, #25c481, #25b7c4, black);
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  /* background: linear-gradient(318deg, #25c481, #25b7c4, black); 
   background-size: 1000% 1000%; 
   -webkit-animation: Coolgradient 41s linear infinite;
   -moz-animation: Coolgradient 41s linear infinite;
   -o-animation: Coolgradient 41s linear infinite;
   animation: Coolgradient 41s linear infinite;
+  */
 }
 
+/* cool background gradient
 @-webkit-keyframes Coolgradient {
     0%{background-position:5% 0%}
     50%{background-position:96% 100%}
@@ -77,7 +81,7 @@ body {
     50%{background-position:96% 100%}
     100%{background-position:5% 0%}
 }
-
+*/
 section {
   margin: 50px;
 }
